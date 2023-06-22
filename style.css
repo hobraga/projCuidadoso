@@ -73,7 +73,7 @@ p {
 
 .imagemobj {
   width: 50%;
-  opacity: 0.2;
+  opacity: 0.5;
   transition: 300ms;
   box-shadow: 5px 5px #000000;
 }
