@@ -29,7 +29,7 @@ p:first-line {
   font-size: 1.4em;
   text-align: center;
   clear: left;
-  text-shadow: 2px 2px white;
+  text-shadow: 5px 5px #FFFF;
 }
 
 .titulo-centralizado:first-letter {
