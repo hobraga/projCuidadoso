@@ -157,6 +157,24 @@ nav a:hover {
   font-weight: bold;
 }
 
+.imgap {
+  opacity: 0.2;
+  transition: 300ms;
+  box-shadow: 5px 5px #C78C19;
+}
+
+.imgdoacao {
+  opacity: 0.2;
+  transition: 300ms;
+  box-shadow: 5px 5px #C78C19;
+}
+
+.imginfo {
+  opacity: 0.2;
+  transition: 300ms;
+  box-shadow: 5px 5px #C78C19;
+}
+
 .descricao {
   font-size: 18px;
   font-weight: bold;
