@@ -163,6 +163,7 @@ nav a:hover {
 .infos h2 {
   font-size: 30px;
   font-weight: bold;
+  text-shadow: 5px 5px #FFFF;
 }
 
 
