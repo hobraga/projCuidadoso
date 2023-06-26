@@ -29,7 +29,6 @@ p:first-line {
   font-size: 1.4em;
   text-align: center;
   clear: left;
-  text-shadow: 5px 5px #FFFF;
 }
 
 .titulo-centralizado:first-letter {
@@ -82,7 +81,7 @@ p {
 /* definições para a página Informações+ */
 
 header {
-  background: #000000;
+  background: linear-gradient(#C78C19, #1c1c1c, #1c1c1c, #4F4F4F);
   padding: 20px 0;
 }
 
@@ -163,7 +162,6 @@ nav a:hover {
 .infos h2 {
   font-size: 30px;
   font-weight: bold;
-  text-shadow: 5px 5px #FFFF;
 }
 
 
@@ -176,14 +174,43 @@ nav a:hover {
 
 footer {
   text-align: center;
-  background: #1C1C1C;
-  padding: 20px;
+  background: linear-gradient(#4F4F4F, #1c1c1c, #1c1c1c, #C78C19);
+  padding: 40px;
 }
 
 .copyright {
   color: #FFFF;
   font-size: 40px;
   margin: 20px 0 0 0;
+}
+
+@media screen and (max-width: 480px) {
+
+  main,
+  .caixa,
+  .objetivos,
+  .principal,
+  .mapa {
+    width: auto;
+  }
+
+  .logofim {
+    width: 300px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  nav {
+    position: static;
+  }
+
+  .lista-obj,
+  .imagemobj {
+    width: 100%;
+  }
+
 }
 
 /* definições para a página de Cadastro */
@@ -233,4 +260,34 @@ form legend {
 .enviar:hover {
   background: darkorange;
   transform: scale(1.1);
+}
+
+/* definições para a página de Logado do funcionário */
+
+.calendario {
+  text-align: center;
+  width: 200px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 0 auto;
+
+}
+
+.dia-atual {
+  background-color: #3498db;
+  color: #fff;
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+td {
+  text-align: center;
+  padding: 5px;
 }
