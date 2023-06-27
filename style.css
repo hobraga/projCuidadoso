@@ -45,7 +45,7 @@ p {
   text-align: center;
   padding: 3em 30px;
   background: linear-gradient(#4F4F4F, white);
-
+  margin: 0 auto;
 }
 
 .objetivos {
